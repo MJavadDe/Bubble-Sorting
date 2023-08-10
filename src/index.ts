@@ -1,4 +1,10 @@
-import { Sorter } from "./Sorter"; //sort an Array of numbers, a string or LinkedList and nodes
-import { NumberCollection } from "./NumbersCollection";// NumbersCollection([5,89,1,8]) then -> Sorter(NumberCollection) => [1,5,8,89]
-import { CharacterCollection } from "./CharactersCollection";// CharactersCollection("dcba") then -> Sorter(CharactersCollection) => "abcd"
+import { Sorter } from "./Sorter"; 
+import { NumberCollection } from "./NumbersCollection";
+import { CharacterCollection } from "./CharactersCollection";
 import { LinkedList } from "./LinkedList";
+
+const numbersCollection = new NumberCollection([849, 846464, 978464, 844565, 84])
+
+numbersCollection.sort() // sort is a custom method ctrl + click to see 
+
+console.log(numbersCollection);
